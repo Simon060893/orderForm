@@ -1,0 +1,203 @@
+﻿{
+    "motherboard": {
+      "required":true,
+      "title": "Пожалуйста Выберите материнскую плату",
+      "data-info":"Нам необходимо подобрать Вам нужные доступные  компоненты для выбранной Вами плату",
+      "products": [
+        {
+          "id": 0,
+          "children": [
+            2
+          ],
+          "info": {
+            "title": "Материнская плата MSI AM1I Socket AM1, интегрирован в процессор, DDR3-1600(.....850,50 ",
+            "logo": "81_4000x_1458179529.jpg",
+            "description": "Формфактор MiniITX Тип разъема Socket 1151 Поддержка процессоров Intel Core i7 / Core i5 / Core i3 / Pentium / Celeron 6-го поколения под сокет LGA1151 Чипсет (Северный мост) Intel Z170 Поддержка памяти 2 x...",
+            "waranty": 36,
+            "price": 7500
+          }
+        },
+        {
+          "id": 1,
+          "children": [
+            3
+          ],
+          "info": {
+            "title": "Материнская плата ASRock G41M-VS3 R2.0 Socket 775, Intel G41, DDR3-1333, 4G.....1944,00 ",
+            "logo": "6ab2a0b0e73828c52179cc4381f6a3ae.jpg",
+            "description": "Форм-фактор Mini-ITX и тонкий профиль – высота всего 25 мм Наличие нескольких видеовыходов: HDMI, D-SUB, LVDS Поддержка напряжения питания 12 и 19 В (вход питания постоянного...",
+            "waranty": 36,
+            "price": 750
+          }
+        }
+      ]
+    },
+    "processor":{
+      "title": "Пожалуйста Выберите процессор",
+      "products": [
+      {
+        "id": 3,
+        "children": [],
+        "dependet": true,
+        "info": {
+          "title": "Процессор AMD SEMPRON X4 3850 (SD3850JAHMBOX) AM1, 4 ядра, 1.3 GHz, HD 8280.....939,60 ",
+          "logo": "U0069051_big.jpg",
+          "price": 854
+        }
+      },
+      {
+        "id": 5,
+        "children": [],
+        "dependet": true,
+        "info": {
+          "title": "Процессор INTEL Celeron G1840 (BX80646G1840) s1150, 2 ядра, 2.80GHz, 5200MH.....1080,00  ",
+          "logo": "ef202dd1906f69e0407972bb3e7459d6.jpg",
+          "price": 1090.59
+        }
+      }
+    ]},
+    "RAM": {
+      "title": "Пожалуйста Выберите необходимое Вам оперативную плату",
+      "products":[
+      {
+        "id": 6,
+        "children": [],
+        "info": {
+          "title": "Модуль памяти для компьютера DDR2 1GB 800 MHz Hynix (H5PS1G831) 1, 800 MHz,.....302,40 ",
+          "logo": "kingston_kvr16n11s8_4_images_6940612.jpg",
+          "price": 799.59
+        }
+      },
+      {
+        "id": 7,
+        "children": [],
+        "info": {
+          "title": "Модуль памяти для компьютера eXceleram DDR3 2GB 1333 MHz (E30106A) 1, 1333 .....445,50 ",
+          "logo": "kingston_kvr16n11s8_4_images_69406122.jpg",
+          "price": 999.59
+        }
+      }
+    ]},
+    "HDD": {
+      "title": "Пожалуйста Выберите необходимое Вам жесткий диск",
+      "products":[
+      {
+        "id": 8,
+        "children": [],
+        "info": {
+          "title": "Жесткий диск 3.5   250Gb Seagate (# ST3250310CS #) 7200 об/мин, 8 MB, SATA .....545,40 ",
+          "logo": "e2afe3369a6af61ff2d9131f147e2c4e.jpg",
+          "price": 899.59
+        }
+      },
+      {
+        "id": 9,
+        "children": [],
+        "info": {
+          "title": "Жесткий диск 3.5 500Gb Seagate (ST500DM002) 7200 об/мин, 16 MB, SATA III, .....1360,80 ",
+          "logo": "e2afe3369a6af61ff2d9131f147e2c4e.jpg",
+          "price": 1299.59
+        }
+      }
+    ]},
+    "SDD": {
+      "title": "Пожалуйста Выберите необходимое Вам SDD",
+      "products":[
+      {
+        "id": 12,
+        "children": [],
+        "info": {
+          "title": "Crucial 275GB 2,5'' SATA SSD MX300 M.2 (CT275MX300SSD)",
+          "description": "Тип накопителя Внутренний Объем 275 ГБ Интерфейс SATAIII Формфактор M.2. Тип ячеек памяти MLC Скорость чтения 530 MB/s Скорость записи 500 МБ/s Время наработки на отказ 1.5 млн....",
+          "logo": "e498ab392d4c58b06513548eb71cee44.jpg",
+          "waranty": 12,
+          "price": 2899.59
+        }
+      },
+      {
+        "id": 13,
+        "children": [],
+        "info": {
+          "title": "Plextor 128GB SSD M.2 2280 SATA M7VG (PX-128M7VG)",
+          "description": "Линейка M7V M.2 2280 Тип флэш-памяти TLC Контроллер Marvell Назначение для ноутбука и настольного компьютера Форм-фактор 2280 Объем 128 Гб Скорость записи/Скорость чтения ",
+          "logo": "e498ab392d4c58b06513548eb71cee44.jpg",
+          "waranty": 36,
+          "price": 1599.59
+        }
+      }
+    ]},
+    "video_card":{
+      "title": "Пожалуйста Выберите необходимое Вам видеокарту",
+      "products": [
+      {
+        "id": 10,
+        "children": [],
+        "info": {
+          "title": "Видеокарта ASUS Radeon R5 230 1024Mb Silent (R5230-SL-1GD3-L) GDDR3, 64 Bit.....1107,00",
+          "logo": "575873f4bf44a96a240f98560c53af2d.jpg",
+          "price": 1899.59
+        }
+      },
+      {
+        "id": 11,
+        "children": [],
+        "info": {
+          "title": "Видеокарта MSI Radeon HD 7730 2048Mb 128Bit! (R7730-2GD3/LP) DDR3, 128 Bit,.....1525,50 ",
+          "logo": "575873f4bf44a96a240f98560c53af2d.jpg",
+          "price": 1999.59
+        }
+      }
+    ]},
+    "cases_for_personal_computers":{
+      "title": "Пожалуйста Выберите необходимый Вам корпус",
+      "products": [
+      {
+        "id": 14,
+        "children": [],
+        "info": {
+          "title": "AEROCOOL AERO 1000 (Black) (4713105955293)",
+          "logo": "magazin-qwertyshop-AEROCOOL-AERO-1000--Black---4713105955293-_kart.jpg",
+          "description": "Код производителя 4713105955293 Форм-фактор Mini-ITX, microATX, ATX Тип корпуса Miditower Материал корпуса Сталь, толщиной 0.8 мм Мощность блока питания Нет Количество отсеков 5.25",
+          "waranty": 36,
+          "price": 2899.59
+        }
+      },
+      {
+        "id": 15,
+        "children": [],
+        "info": {
+          "title": "AEROCOOL AERO 800 (White) (4713105955545) ",
+          "logo": "magazin-qwertyshop-AEROCOOL-AERO-800--White---4713105955545-_kart.jpg",
+          "description": "Код производителя 4713105955545 Тип корпуса Miditower Материал корпуса Сталь, толщиной 0.5 мм Мощность блока питания Нет Количество отсеков 5.25 2 Количество внутренних...",
+          "waranty": 36,
+          "price": 999.59
+        }
+      }
+    ]},
+    "power_units": {
+      "title": "Пожалуйста Выберите необходимый Блок питания",
+      "products":[
+      {
+        "id": 16,
+        "children": [],
+        "info": {
+          "title": "500W ZALMAN (ZM500-LE II)",
+          "logo": "magazin-qwertyshop-500w-zalman-zm500-le-ii_kart.jpg",
+          "description": "Тип БП Для офисных ПК Мощность 500Вт Стандарт БП ATX 12V v2.3 Подключение материнской платы 20+4 pin Подключение процессора 1x4+4pin Подключение видеокарты 2x6+2 pin Кол-во...",
+          "waranty": 36,
+          "price": 2899.59
+        }
+      },
+      {
+        "id": 17,
+        "children": [],
+        "info": {
+          "title": "AEROCOOL 700W VX 700 (713105953626)",
+          "logo": "magazin-qwertyshop-aerocool-700w-vx-700-713105953626_kart.jpg",
+          "description": "Код товара VP 650 Тип Компьютерный Мощность 650 Вт Модульное подключение кабелей Нет Тип разъема подключения к материнской плате ATX 20+4pin Охлаждение Вентилятор 120...",
+          "waranty": 12,
+          "price": 999.59
+        }
+      }
+    ]}
+  }
